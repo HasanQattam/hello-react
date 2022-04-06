@@ -1,7 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import logo from "./logo.svg";
+import "./App.css";
+function Hasan() {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,11 +14,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React with Hasan
         </a>
       </header>
     </div>
   );
+}
+function App() {
+  return <Hasan />;
 }
 
 export default App;
